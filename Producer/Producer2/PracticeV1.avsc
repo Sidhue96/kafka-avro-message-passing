@@ -1,0 +1,19 @@
+{ "type": "record",
+    "name": "Practice",
+    "fields": [
+        {"name": "id", "type": "string"},
+        {"name": "pid", "type": ["string", "null"]},
+        {"name": "gender", "type": "string"},
+        {"name": "age", "type": ["string", "null"]},
+        {"name": "hypertension", "type": ["string", "null"]},
+        {"name": "heart_disease", "type": ["string", "null"]},
+        {"name": "ever_married", "type": ["string", "null"]},
+        {"name": "work_type", "type": ["string", "null"]},
+        {"name": "residence_type", "type": ["string", "null"]},
+        {"name": "avg_glucose_level", "type": ["string", "null"]},
+        {"name": "bmi", "type": ["string", "null"]},
+        {"name": "stroke", "type": ["string", "null"]},
+        {"name": "smoking_status", "type": ["string","null"]},
+        {"name": "time_stamp", "type": "string"}
+    ]
+}
